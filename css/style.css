@@ -5,3 +5,53 @@
    --card-list_title-color:rgba(98, 98, 98, 1);
    --card-list_describtion-color:rgba(98, 98, 98, 1);
 }
+.nav-list_link{
+    color:var(--nav-list_link-color);
+    font-size: 14px;
+    font-family:Playfair Display;
+    font-weight:400;
+    word-wrap:break-word;
+    text-decoration: none;
+}
+.nav-list_link:hover{
+    color:var(--nav-list-checked-color);
+}
+
+.card-list_text{
+   color:var(--card-list-text-color); 
+   font-size:14px;
+   font-family: Ubuntu;
+   font-weight:300;
+   word-wrap:break-word;
+}
+
+.card-list_title{
+    color:var(--card-list_title-color);
+    font-size:30px;
+    font-family: Playfair Display;
+    font-weight:400;
+    word-wrap:break-word;
+}
+
+.card-list_describtion{
+    color:var(--card-list_describtion-color);
+    font-size:14px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+
+.button-container{
+    height:100px;
+    width:100px;
+    border:1px var(--card-list_title-color) solid;
+}
+.button{
+    color:var(--card-list_title-color);
+    font-size:14px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    word-wrap: break-word; 
+    align-items: center;
+}
+
