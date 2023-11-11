@@ -40,12 +40,6 @@
     font-weight: 400;
     word-wrap: break-word;
 }
-
-/* .button-container{
-    height:100px;
-    width:100px;
-    border:1px var(--card-list_title-color) solid;
-} */
 .button{
     height:100px;
     width:100px;
