@@ -1,0 +1,7 @@
+:root{
+   --nav-list-checked-color:rgba(3, 169, 244, 1);
+   --nav-list_link-color:rgba(125, 125, 125, 1);
+   --card-list-text-color:rgba(180, 173, 158, 1);
+   --card-list_title-color:rgba(98, 98, 98, 1);
+   --card-list_describtion-color:rgba(98, 98, 98, 1);
+}
