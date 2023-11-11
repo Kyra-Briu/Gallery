@@ -41,12 +41,15 @@
     word-wrap: break-word;
 }
 
-.button-container{
+/* .button-container{
     height:100px;
     width:100px;
     border:1px var(--card-list_title-color) solid;
-}
+} */
 .button{
+    height:100px;
+    width:100px;
+    border:1px var(--card-list_title-color) solid;
     color:var(--card-list_title-color);
     font-size:14px;
     font-family: Playfair Display;
