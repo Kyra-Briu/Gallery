@@ -3,15 +3,25 @@
    --nav-list_link-color:rgba(125, 125, 125, 1);
    --card-list-text-color:rgba(180, 173, 158, 1);
    --card-list_title-color:rgba(98, 98, 98, 1);
-   --card-list_describtion-color:rgba(98, 98, 98, 1);
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size:14px;
+    font-style:normal;
+    line-height:normal;
+    word-wrap:break-word;
+    font-weight:400;
+    color:var(--card-list_title-color)
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type:none;
 }
 .nav-list_link{
     color:var(--nav-list_link-color);
-    font-size: 14px;
-    font-family:'Playfair Display', serif;
-    font-weight:400;
     word-wrap:break-word;
-    text-decoration: none;
 }
 .nav-list_link:hover{
     color:var(--nav-list-checked-color);
@@ -19,34 +29,26 @@
 
 .card-list_text{
    color:var(--card-list-text-color); 
-   font-size:14px;
    font-family:'Ubuntu', sans-serif;
    font-weight:300;
    word-wrap:break-word;
 }
 
+/* Браузерний стандартні стилі перебивають специфічність наслідування стилю з body */
 .card-list_title{
-    color:var(--card-list_title-color);
     font-size:30px;
-    font-family: 'Playfair Display', serif;
     font-weight:400;
     word-wrap:break-word;
 }
 
-.card-list_describtion{
-    color:var(--card-list_describtion-color);
-    font-size:14px;
-    font-family: 'Playfair Display', serif;
-    font-weight: 400;
-    word-wrap: break-word;
-}
+/* Для кнопок задаємо до кнопок стилі окремо !!!*/
 .button{
     height:100px;
     width:100px;
+    font-family:'Playfair Display', serif;
+    background-color:white;
     border:1px var(--card-list_title-color) solid;
     color:var(--card-list_title-color);
-    font-size:14px;
-    font-family: 'Playfair Display', serif;
     font-weight: 400;
     word-wrap: break-word; 
     align-items: center;
