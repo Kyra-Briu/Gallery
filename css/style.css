@@ -8,7 +8,7 @@
 .nav-list_link{
     color:var(--nav-list_link-color);
     font-size: 14px;
-    font-family:Playfair Display;
+    font-family:'Playfair Display', serif;
     font-weight:400;
     word-wrap:break-word;
     text-decoration: none;
@@ -20,7 +20,7 @@
 .card-list_text{
    color:var(--card-list-text-color); 
    font-size:14px;
-   font-family: Ubuntu;
+   font-family:'Ubuntu', sans-serif;
    font-weight:300;
    word-wrap:break-word;
 }
@@ -28,7 +28,7 @@
 .card-list_title{
     color:var(--card-list_title-color);
     font-size:30px;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-weight:400;
     word-wrap:break-word;
 }
@@ -36,7 +36,7 @@
 .card-list_describtion{
     color:var(--card-list_describtion-color);
     font-size:14px;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     word-wrap: break-word;
 }
@@ -46,7 +46,7 @@
     border:1px var(--card-list_title-color) solid;
     color:var(--card-list_title-color);
     font-size:14px;
-    font-family: Playfair Display;
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     word-wrap: break-word; 
     align-items: center;
