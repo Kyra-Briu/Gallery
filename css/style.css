@@ -21,7 +21,6 @@ ul{
 }
 .nav-list_link{
     color:var(--nav-list_link-color);
-    word-wrap:break-word;
 }
 .nav-list_link:hover{
     color:var(--nav-list-checked-color);
@@ -31,26 +30,23 @@ ul{
    color:var(--card-list-text-color); 
    font-family:'Ubuntu', sans-serif;
    font-weight:300;
-   word-wrap:break-word;
 }
 
 /* Браузерний стандартні стилі перебивають специфічність наслідування стилю з body */
 .card-list_title{
     font-size:30px;
     font-weight:400;
-    word-wrap:break-word;
 }
 
 /* Для кнопок задаємо до кнопок стилі окремо !!!*/
 .button{
     height:100px;
     width:100px;
-    font-family:'Playfair Display', serif;
     background-color:white;
     border:1px var(--card-list_title-color) solid;
+    font-family:'Playfair Display', serif;
     color:var(--card-list_title-color);
     font-weight: 400;
-    word-wrap: break-word; 
     align-items: center;
 }
 
