@@ -14,11 +14,24 @@ body{
     color:var(--card-list_title-color);
     background-color:white;
 }
+.container{
+    /* Контейнер для фотографий */
+    /* 30 пикс оставляем на паддинг  */
+    width:930px;
+    margin:92px auto ;
+    /* auto-- автоматическое распределение */
+    padding:30px;
+    outline: 5px solid red;
+}
 a{
     text-decoration: none;
 }
 ul{
     list-style-type:none;
+}
+ul,p,h2, button{
+    padding:0;
+    margin:0;
 }
 .nav-list_link{
     color:var(--nav-list_link-color);
@@ -27,27 +40,31 @@ ul{
     color:var(--nav-list-checked-color);
 }
 
+.card-list_img{
+    margin-bottom: 62px
+}
 .card-list_text{
    color:var(--card-list-text-color); 
    font-family:'Ubuntu', sans-serif;
    font-weight:300;
+   margin-bottom:32px;
 }
 
 /* Браузерний стандартні стилі перебивають специфічність наслідування стилю з body */
 .card-list_title{
     font-size:30px;
     font-weight:400;
+    margin-bottom:40px;
 }
-
 /* Для кнопок задаємо до кнопок стилі окремо !!!*/
 .button{
-    width: 165px;
-    height: 60px;
+    padding: 20px 48px;
     background-color:transparent;
     border:1px solid var(--card-list_title-color);
     font-family:'Playfair Display', serif;
     color:var(--card-list_title-color);
     font-weight: 400;
     align-items: center;
+    margin: 94px auto 0;
 }
 
