@@ -14,15 +14,6 @@ body{
     color:var(--card-list_title-color);
     background-color:white;
 }
-.container{
-    /* Контейнер для фотографий */
-    /* 30 пикс оставляем на паддинг  */
-    width:930px;
-    margin:92px auto ;
-    /* auto-- автоматическое распределение */
-    padding:30px;
-    outline: 5px solid red;
-}
 a{
     text-decoration: none;
 }
@@ -33,15 +24,44 @@ ul,p,h2, button{
     padding:0;
     margin:0;
 }
+.container{
+    /* Контейнер для фотографий */
+    /* 30 пикс оставляем на паддинг  */
+    width:936px;
+    margin:0 auto ;
+    /* auto-- автоматическое распределение */
+    padding: 0 15px;
+}
+.header{
+    margin: 71px auto 92px;
+}
+.nav-list{
+    display:flex;
+    flex-direction:row;
+    gap:99px;
+    align-items:center;
+    justify-content: center;
+}
 .nav-list_link{
     color:var(--nav-list_link-color);
 }
 .nav-list_link:hover{
     color:var(--nav-list-checked-color);
 }
-
+.card-list_item{
+    max-width:420px;
+}
+.card-list{
+    display:flex;
+    flex-direction:row;
+    column-gap:64px;
+    row-gap:130px;
+    flex-wrap:wrap;
+}
 .card-list_img{
-    margin-bottom: 62px
+    margin-bottom: 62px;
+    width:420px;
+    height:280px;
 }
 .card-list_text{
    color:var(--card-list-text-color); 
@@ -58,13 +78,13 @@ ul,p,h2, button{
 }
 /* Для кнопок задаємо до кнопок стилі окремо !!!*/
 .button{
+    display:block;
     padding: 20px 48px;
     background-color:transparent;
     border:1px solid var(--card-list_title-color);
     font-family:'Playfair Display', serif;
     color:var(--card-list_title-color);
     font-weight: 400;
-    align-items: center;
     margin: 94px auto 0;
 }
 
